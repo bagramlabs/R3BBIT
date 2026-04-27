@@ -1,0 +1,20 @@
+name: ✨ Feature Request
+description: Suggest a new feature
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: What feature would you like?
+      description: Describe what you'd like to see added
+      placeholder: "Add a weekly summary chart"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be useful?
+      placeholder: "It would help me see trends at a glance"
+    validations:
+      required: false
