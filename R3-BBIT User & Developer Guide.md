@@ -12,7 +12,7 @@ Welcome to the production documentation for **R3-BBIT**. This guide explains the
 
 ### 1. Soothe Service (White Noise)
 The `SootheService` is a foreground service that handles high-fidelity audio playback.
-*   **Loop Mode:** Plays the selected `.raw` audio file indefinitely.
+*   **Loop Mode:** Plays the selected `.ogg` audio file indefinitely.
 *   **Timer Mode:** Automatically stops playback after a user-defined interval.
 *   **Fade Out:** When stopping or when the timer expires, the audio fades out over 2 seconds to prevent startling the baby.
 *   **Controls:** Integrated into the Android Notification tray. You can **Stop** or **Restart** the session without opening the app.
