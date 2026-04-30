@@ -17,15 +17,8 @@ Track feedings, sleep, diaper changes, and soothe your baby with calming sounds 
 
 ### 🎵 Soothe Feature
 Play calming sounds to help comfort your baby with background playback support:
-- White Noise
 - Brown Noise
 - Pink Noise
-- Rain
-- Ocean Waves
-- Heartbeat
-- Vacuum
-- Hair Dryer
-- Fan
 
 **Timer Options:**
 - Quick select: 5, 10, 15, 20, 30, 45, 60, 90, 120 minutes
