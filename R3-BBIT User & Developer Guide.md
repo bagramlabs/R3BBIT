@@ -177,22 +177,12 @@ Soothe plays calming sounds to help comfort your baby. The audio continues playi
 
 ### Available Sounds
 
-R3BBIT includes 9 scientifically-backed calming sounds:
+R3BBIT includes 3 scientifically-backed calming sounds:
 
 #### Noise Types
 - **White Noise** - Classic static sound, masks environmental noise
 - **Brown Noise** - Deeper, richer tone, like distant thunder or waterfall
 - **Pink Noise** - Balanced frequency, softer than white noise
-
-#### Nature Sounds
-- **Rain** - Gentle rainfall, peaceful and rhythmic
-- **Ocean** - Wave sounds, ebb and flow pattern
-
-#### Heartbeat & Household
-- **Heartbeat** - Rhythmic pulse, mimics sounds from the womb
-- **Vacuum** - Household white noise, surprisingly effective
-- **Hair Dryer** - Consistent hum, calming for many babies
-- **Fan** - Gentle air circulation sound
 
 ### How to Use Soothe
 
