@@ -27,12 +27,19 @@
             border-radius: 4px;
             margin: 24px 0;
         }
+        .opt-in {
+            background: #fff7e6;
+            border-left: 4px solid #ff9800;
+            padding: 14px 18px;
+            border-radius: 4px;
+            margin: 24px 0;
+        }
     </style>
 </head>
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated: April 2026</p>
+<p class="updated">Last updated: May 2026</p>
 
 <div class="highlight">
     <strong>Short version:</strong> R3BBIT does not collect, transmit, or share any of your personal data. Everything you enter stays on your device.
@@ -61,14 +68,69 @@
 <p>R3BBIT does <strong>not</strong>:</p>
 <ul>
     <li>Transmit any data to external servers or third parties</li>
-    <li>Use analytics, crash reporting, or tracking SDKs</li>
     <li>Collect device identifiers, location, or contact information</li>
     <li>Display targeted advertising</li>
     <li>Require account registration or login</li>
-    <li>Access the internet at any point during normal use</li>
+    <li>Access the internet at any point during normal use (except for optional features listed below)</li>
 </ul>
 
-<h2>4. Data You Export Yourself</h2>
+<h2>4. Optional Features That Use the Internet</h2>
+
+<h3>4.1 Crash Reporting (Opt-In Only)</h3>
+
+<div class="opt-in">
+    <strong>Note:</strong> Crash reporting is <strong>OFF by default</strong>. You must explicitly enable it in Settings.
+</div>
+
+<p>If you <strong>choose to enable</strong> crash reporting in Settings, the App will:</p>
+<ul>
+    <li>Save crash logs locally when the App unexpectedly closes</li>
+    <li>Store these logs in the App's private directory on your device</li>
+    <li>Never automatically transmit these logs anywhere</li>
+</ul>
+
+<p><strong>What crash logs contain:</strong></p>
+<ul>
+    <li>Technical error information (stack traces)</li>
+    <li>Device model and Android version</li>
+    <li>App version and which screen you were on</li>
+    <li><strong>NOT</strong> your baby's data (feeds, diapers, sleep logs, etc.)</li>
+</ul>
+
+<p><strong>How crash logs are shared:</strong></p>
+<ul>
+    <li>Logs remain on your device until you choose to share them</li>
+    <li>When you submit a bug report via "Report Bug / Request Feature", you'll be asked if you want to include crash logs</li>
+    <li>You can choose "No" and submit your bug report without crash logs</li>
+    <li>If you choose "Yes", crash logs are sent to our GitHub Issues page (public repository)</li>
+    <li>Crash logs are used solely for debugging and fixing app issues</li>
+</ul>
+
+<p><strong>How to control crash reporting:</strong></p>
+<ol>
+    <li>Open R3BBIT</li>
+    <li>Go to Settings</li>
+    <li>Toggle "CRASH REPORTS: ON/OFF"</li>
+    <li>Default is OFF</li>
+</ol>
+
+<p><strong>Deleting crash logs:</strong></p>
+<ul>
+    <li>Crash logs are automatically deleted when you uninstall the App</li>
+    <li>You can also clear app data in Android Settings to delete all logs</li>
+</ul>
+
+<h3>4.2 Bug Reports & Feedback</h3>
+<p>When you submit feedback via "Report Bug / Request Feature":</p>
+<ul>
+    <li><strong>You provide:</strong> Bug title, description (and optionally crash logs if enabled)</li>
+    <li><strong>We collect:</strong> App version, device model, Android version</li>
+    <li><strong>NOT collected:</strong> Your baby's tracking data, personal information, or identifiable data</li>
+    <li>Feedback is submitted to GitHub Issues (public repository at github.com/bagramlabs/R3BBIT)</li>
+    <li>Your GitHub username will NOT be associated with the report</li>
+</ul>
+
+<h2>5. Data You Export Yourself</h2>
 <p>
     The App includes optional Export and Import features:
 </p>
@@ -81,21 +143,21 @@
     The App does not transmit this data on your behalf.
 </p>
 
-<h2>5. Clipboard Access</h2>
+<h2>6. Clipboard Access</h2>
 <p>
     The App's Toolbox feature allows you to copy and paste log data via the system clipboard.
     This is used solely for backing up or transferring your own data between devices.
     The App reads the clipboard only when you explicitly tap "Paste from Clipboard."
 </p>
 
-<h2>6. Notifications and Audio</h2>
+<h2>7. Notifications and Audio</h2>
 <p>
     The Soothe feature plays audio and displays a persistent notification while active.
     No audio data is recorded or transmitted. Notification permission is requested on
     Android 13 and above solely to display the Soothe playback control.
 </p>
 
-<h2>7. Children's Privacy</h2>
+<h2>8. Children's Privacy</h2>
 <p>
     R3BBIT is designed to be used <em>by</em> parents and caregivers, not by children directly.
     The App does not knowingly collect any personal data from children.
@@ -103,7 +165,7 @@
     solely on the caregiver's device.
 </p>
 
-<h2>8. Your Rights Under GDPR</h2>
+<h2>9. Your Rights Under GDPR</h2>
 <p>
     As a resident of the European Economic Area (EEA), you have the following rights
     under the General Data Protection Regulation (GDPR):
@@ -111,30 +173,39 @@
 <ul>
     <li><strong>Right of access</strong> – all your data is visible directly within the App under Logs.</li>
     <li><strong>Right to rectification</strong> – you can edit any log entry directly in the App.</li>
-    <li><strong>Right to erasure</strong> – you can delete individual entries or wipe all data via Settings → Wipe All Data. Uninstalling the App also permanently deletes all stored data.</li>
+    <li><strong>Right to erasure</strong> – you can delete individual entries or wipe all data via Settings → Wipe All Data. Uninstalling the App also permanently deletes all stored data. Crash logs are also deleted when you clear app data or uninstall.</li>
     <li><strong>Right to data portability</strong> – you can export all your data as a CSV file at any time via Toolbox → Export as CSV.</li>
-    <li><strong>Right to object</strong> – since no data leaves your device and no processing is performed by us, there is no data processing to object to.</li>
+    <li><strong>Right to object</strong> – you can disable crash reporting at any time in Settings. Since no other data leaves your device, there is no other data processing to object to.</li>
 </ul>
 <p>
     Because all data is stored locally on your device and we have no access to it,
-    we act as neither a data controller nor a data processor in the traditional GDPR sense.
-    You are in full control of your data at all times.
+    we act as neither a data controller nor a data processor in the traditional GDPR sense
+    for your baby tracking data. You are in full control of your data at all times.
+</p>
+<p>
+    For crash reports (if enabled), we act as a data controller only for the technical crash
+    data you explicitly choose to send us via bug reports.
 </p>
 
-<h2>9. Data Retention</h2>
+<h2>10. Data Retention</h2>
 <p>
     Data is retained on your device until you delete it manually or uninstall the App.
     We have no ability to access, retrieve, or delete your data remotely.
 </p>
+<p>
+    If you submit crash logs via a bug report to GitHub, those logs remain on GitHub's
+    servers as part of the public issue. You can request deletion by contacting us at
+    <a href="mailto:nicholas@bagramlabs.com">nicholas@bagramlabs.com</a>.
+</p>
 
-<h2>10. Changes to This Policy</h2>
+<h2>11. Changes to This Policy</h2>
 <p>
     If this policy changes in a future version of the App, the updated policy will be
     made available on this page with a revised "Last updated" date.
     Continued use of the App after any changes constitutes acceptance of the updated policy.
 </p>
 
-<h2>11. Contact</h2>
+<h2>12. Contact</h2>
 <p>
     If you have any questions about this privacy policy or your data, please contact:<br>
     <a href="mailto:nicholas@bagramlabs.com">nicholas@bagramlabs.com</a>
