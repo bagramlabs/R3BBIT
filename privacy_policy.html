@@ -16,6 +16,7 @@
         }
         h1 { font-size: 28px; margin-bottom: 4px; }
         h2 { font-size: 18px; margin-top: 36px; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+        h3 { font-size: 16px; margin-top: 24px; }
         .updated { color: #888; font-size: 14px; margin-bottom: 40px; }
         a { color: #2a7ae2; }
         ul { padding-left: 20px; }
@@ -42,7 +43,7 @@
 <p class="updated">Last updated: May 2026</p>
 
 <div class="highlight">
-    <strong>Short version:</strong> R3BBIT does not collect, transmit, or share any of your personal data. Everything you enter stays on your device.
+    <strong>Short version:</strong> R3BBIT does not collect, transmit, or share any of your baby's personal data. Everything you enter stays on your device. The free version displays ads via Google AdMob (which may collect standard advertising data), but AdMob never sees your baby's tracking information.
 </div>
 
 <h2>1. Who We Are</h2>
@@ -57,7 +58,10 @@
     <li>Feeding logs (time, volume, unit)</li>
     <li>Sleep and wake logs (time, duration)</li>
     <li>Diaper logs (time, type)</li>
-    <li>App preferences (unit system, hand preference, schedule settings)</li>
+    <li>Schedule settings (wake windows, feed intervals)</li>
+    <li>Soothe sound preferences and timer settings</li>
+    <li>App preferences (unit system, hand preference, color coding, haptic feedback)</li>
+    <li>Pro version purchase status (stored by Google Play, not by us)</li>
 </ul>
 <p>
     This data is stored in Android's private shared preferences and internal storage.
@@ -67,16 +71,63 @@
 <h2>3. Data We Do Not Collect</h2>
 <p>R3BBIT does <strong>not</strong>:</p>
 <ul>
-    <li>Transmit any data to external servers or third parties</li>
-    <li>Collect device identifiers, location, or contact information</li>
-    <li>Display targeted advertising</li>
+    <li>Transmit any of your baby's tracking data to external servers or third parties</li>
+    <li>Collect personal information, names, email addresses, or contact information</li>
+    <li>Access your location</li>
     <li>Require account registration or login</li>
-    <li>Access the internet at any point during normal use (except for optional features listed below)</li>
 </ul>
 
-<h2>4. Optional Features That Use the Internet</h2>
+<p><strong>Exception:</strong> If you use the free version with ads, Google AdMob may collect standard device advertising data as described in Section 4.1 below. This is standard for ad-supported apps and does not include your baby's tracking data.</p>
 
-<h3>4.1 Crash Reporting (Opt-In Only)</h3>
+<h2>4. Third-Party Services</h2>
+
+<h3>4.1 Advertising (Google AdMob)</h3>
+<p>The free version of R3BBIT displays banner advertisements provided by Google AdMob.</p>
+
+<p><strong>What AdMob may collect:</strong></p>
+<ul>
+    <li>Device advertising ID</li>
+    <li>IP address</li>
+    <li>Device information (model, OS version)</li>
+    <li>Ad interaction data (views, clicks)</li>
+</ul>
+
+<p><strong>AdMob does NOT have access to:</strong></p>
+<ul>
+    <li>Your baby's tracking data (feeds, diapers, sleep logs)</li>
+    <li>Any personal information you enter in the App</li>
+    <li>Your schedule or preferences</li>
+</ul>
+
+<p>
+    AdMob is used solely to display non-targeted advertisements in the free version.
+    Google's privacy policy applies to data collected by AdMob: 
+    <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+</p>
+
+<p><strong>How to avoid ads:</strong></p>
+<ul>
+    <li>Upgrade to R3BBIT Pro (one-time in-app purchase)</li>
+    <li>Pro removes all advertisements permanently</li>
+</ul>
+
+<h3>4.2 In-App Purchases (Google Play Billing)</h3>
+<p>R3BBIT offers a Pro version via one-time in-app purchase:</p>
+<ul>
+    <li>Purchase is processed through Google Play's billing system</li>
+    <li>Google processes payment information (we never see credit card details)</li>
+    <li>Purchase removes all advertisements from the App</li>
+    <li>No subscription - one-time payment only</li>
+    <li>Purchase status is stored locally on your device and synced via Google Play</li>
+</ul>
+<p>
+    Google Play's privacy policy applies to billing data:
+    <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+</p>
+
+<h2>5. Optional Features That Use the Internet</h2>
+
+<h3>5.1 Crash Reporting (Opt-In Only)</h3>
 
 <div class="opt-in">
     <strong>Note:</strong> Crash reporting is <strong>OFF by default</strong>. You must explicitly enable it in Settings.
@@ -120,7 +171,7 @@
     <li>You can also clear app data in Android Settings to delete all logs</li>
 </ul>
 
-<h3>4.2 Bug Reports & Feedback</h3>
+<h3>5.2 Bug Reports & Feedback</h3>
 <p>When you submit feedback via "Report Bug / Request Feature":</p>
 <ul>
     <li><strong>You provide:</strong> Bug title, description (and optionally crash logs if enabled)</li>
@@ -130,34 +181,35 @@
     <li>Your GitHub username will NOT be associated with the report</li>
 </ul>
 
-<h2>5. Data You Export Yourself</h2>
-<p>
-    The App includes optional Export and Import features:
-</p>
+<h2>6. Data You Export and Share</h2>
+<p>The App includes optional Export and Share features:</p>
 <ul>
-    <li><strong>Export CSV</strong> — saves a CSV file of your logs to your device's external storage and opens Android's share sheet (e.g. email, cloud storage). This action is always initiated by you.</li>
+    <li><strong>Export CSV</strong> — saves a CSV file of your logs to your device's external storage and opens Android's share sheet (e.g. email, cloud storage).</li>
     <li><strong>Import CSV</strong> — allows you to select and read a CSV file from your device using Android's file picker. The App only reads files you explicitly choose. Imported data is stored locally on your device.</li>
+    <li><strong>Share Charts</strong> — allows you to share trend charts (feeding, sleep, diaper statistics) as PNG images via Android's share sheet. Chart images are temporarily saved to the App's cache directory and can be shared with any app you choose (messaging, email, cloud storage).</li>
 </ul>
 <p>
-    Once exported, the data is subject to the privacy policy of whichever service you choose to share it with.
-    The App does not transmit this data on your behalf.
+    All export and share actions are always initiated by you. Once shared, the data is subject to the privacy policy of whichever service you choose to share it with. The App does not transmit this data on your behalf.
 </p>
 
-<h2>6. Clipboard Access</h2>
+<h2>7. Clipboard Access</h2>
 <p>
     The App's Toolbox feature allows you to copy and paste log data via the system clipboard.
     This is used solely for backing up or transferring your own data between devices.
     The App reads the clipboard only when you explicitly tap "Paste from Clipboard."
 </p>
 
-<h2>7. Notifications and Audio</h2>
+<h2>8. Notifications and Audio</h2>
 <p>
-    The Soothe feature plays audio and displays a persistent notification while active.
-    No audio data is recorded or transmitted. Notification permission is requested on
-    Android 13 and above solely to display the Soothe playback control.
+    The Soothe feature plays audio and displays a persistent notification while active, which allows you to control playback from the notification tray. No audio data is recorded or transmitted. Notification permission is requested on Android 13 and above solely to display the Soothe playback control.
 </p>
 
-<h2>8. Children's Privacy</h2>
+<h2>9. File Storage Permissions</h2>
+<p>
+    The App uses Android's FileProvider to temporarily store chart images in its private cache directory when you share charts. This does not require broad storage permissions. Chart images are automatically cleaned up by Android when cache space is needed.
+</p>
+
+<h2>10. Children's Privacy</h2>
 <p>
     R3BBIT is designed to be used <em>by</em> parents and caregivers, not by children directly.
     The App does not knowingly collect any personal data from children.
@@ -165,7 +217,7 @@
     solely on the caregiver's device.
 </p>
 
-<h2>9. Your Rights Under GDPR</h2>
+<h2>11. Your Rights Under GDPR</h2>
 <p>
     As a resident of the European Economic Area (EEA), you have the following rights
     under the General Data Protection Regulation (GDPR):
@@ -175,7 +227,7 @@
     <li><strong>Right to rectification</strong> – you can edit any log entry directly in the App.</li>
     <li><strong>Right to erasure</strong> – you can delete individual entries or wipe all data via Settings → Wipe All Data. Uninstalling the App also permanently deletes all stored data. Crash logs are also deleted when you clear app data or uninstall.</li>
     <li><strong>Right to data portability</strong> – you can export all your data as a CSV file at any time via Toolbox → Export as CSV.</li>
-    <li><strong>Right to object</strong> – you can disable crash reporting at any time in Settings. Since no other data leaves your device, there is no other data processing to object to.</li>
+    <li><strong>Right to object</strong> – you can disable crash reporting at any time in Settings. For advertising, you can remove ads by upgrading to Pro or use Android's advertising settings to limit ad tracking.</li>
 </ul>
 <p>
     Because all data is stored locally on your device and we have no access to it,
@@ -186,8 +238,13 @@
     For crash reports (if enabled), we act as a data controller only for the technical crash
     data you explicitly choose to send us via bug reports.
 </p>
+<p>
+    For advertising data collected by Google AdMob, Google acts as the data controller.
+    Please refer to Google's privacy policy for information about your rights regarding
+    advertising data.
+</p>
 
-<h2>10. Data Retention</h2>
+<h2>12. Data Retention</h2>
 <p>
     Data is retained on your device until you delete it manually or uninstall the App.
     We have no ability to access, retrieve, or delete your data remotely.
@@ -197,15 +254,20 @@
     servers as part of the public issue. You can request deletion by contacting us at
     <a href="mailto:nicholas@bagramlabs.com">nicholas@bagramlabs.com</a>.
 </p>
+<p>
+    Shared chart images are stored temporarily in your device's cache and are automatically
+    cleaned up by Android. Once you share them with another app, they are subject to that
+    app's data retention policies.
+</p>
 
-<h2>11. Changes to This Policy</h2>
+<h2>13. Changes to This Policy</h2>
 <p>
     If this policy changes in a future version of the App, the updated policy will be
     made available on this page with a revised "Last updated" date.
     Continued use of the App after any changes constitutes acceptance of the updated policy.
 </p>
 
-<h2>12. Contact</h2>
+<h2>14. Contact</h2>
 <p>
     If you have any questions about this privacy policy or your data, please contact:<br>
     <a href="mailto:nicholas@bagramlabs.com">nicholas@bagramlabs.com</a>
