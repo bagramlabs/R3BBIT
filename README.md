@@ -36,16 +36,7 @@ Play calming sounds to help comfort your baby with background playback support:
 ## Installation
 
 ### From Google Play
-*Coming soon*
-
-### From Source
-1. Clone the repository
-```bash
-git clone https://github.com/bagramlabs/R3BBIT.git
-```
-
-2. Open in Android Studio
-3. Build and run on your device
+https://play.google.com/store/apps/details?id=com.bagram.r3bbit
 
 ## Usage
 
@@ -128,46 +119,6 @@ View our [Privacy Policy](https://bagramlabs.github.io/R3BBIT)
 - Logs stored in CSV format for easy export
 - All data remains on device unless explicitly exported
 
-### Architecture
-- **Language:** Kotlin
-- **Package:** com.example.babyvibes
-- **Min SDK:** Android 6.0 (API 23)
-- **Services:** 
-  - `SootheService` - Foreground service for audio playback
-  - `NotificationReceiver` - Handles notification actions
-
-## Development
-
-### Prerequisites
-- Android Studio Arctic Fox or later
-- Android SDK 23+
-- Kotlin 1.5+
-
-### Building
-```bash
-# Clone the repository
-git clone https://github.com/bagramlabs/R3BBIT.git
-cd R3BBIT
-
-# Open in Android Studio and sync Gradle
-# Build > Make Project
-
-# Or via command line
-./gradlew assembleDebug
-```
-
-### Project Structure
-```
-app/src/main/
-├── java/com/example/babyvibes/
-│   └── MainActivity.kt          # Main app logic and UI
-├── res/
-│   ├── raw/                     # Soothe sound files
-│   ├── layout/                  # UI layouts (programmatic)
-│   └── values/                  # Strings, colors, themes
-└── AndroidManifest.xml
-```
-
 ## Contributing
 
 We welcome contributions! Here's how you can help:
@@ -196,13 +147,9 @@ We welcome contributions! Here's how you can help:
 - [ ] Growth tracking (weight, height)
 - [ ] Multiple baby profiles
 - [ ] Data backup/sync options
-- [ ] Dark mode
-- [ ] Customizable sound mixing
-- [ ] Medication tracking
-- [ ] Temperature logging
 
 ### In Progress
-- [ ] Google Play Store release
+- [x] Google Play Store release
 - [ ] Localization (multiple languages)
 
 ## Support
@@ -245,7 +192,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Changelog
 
-### Version 1.0.0 (Current)
+### Version 1.0.6 (Current)
 - Initial release
 - Feed tracking (bottle and breastfeeding)
 - Sleep monitoring with duration calculation
