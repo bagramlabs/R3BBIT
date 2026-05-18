@@ -34,11 +34,6 @@ Play calming sounds to help comfort your baby with background playback support:
 - Brown Noise
 - Pink Noise
 - White Noise
-- Ocean Waves
-- Rain
-- Heartbeat
-- Lullaby
-- And more!
 
 **Timer Options:**
 - Quick select: 10-100+ minute intervals
